@@ -69,3 +69,27 @@ body {
 	bottom: 100px;
 	animation-delay: -0.6s;
 }
+
+.loader span:nth-child(7) {
+	top: 120px;
+	left: 120px;
+	right: 120px;
+	bottom: 120px;
+	animation-delay: -0.7s;
+}
+
+.loader span:nth-child(8) {
+	top: 140px;
+	left: 140px;
+	right: 140px;
+	bottom: 140px;
+	animation-delay: -0.8s;
+}
+
+.loader span:nth-child(9) {
+	top: 160px;
+	left: 160px;
+	right: 160px;
+	bottom: 160px;
+	animation-delay: -0.9s;
+}
