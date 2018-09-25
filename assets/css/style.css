@@ -20,3 +20,11 @@ body {
 	border: 10 px solid rgba(255, 255,255, .5);
 	animation: animate 10s alternate infinite;
 }
+
+.loader span:nth-child(1) {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	animation-delay: -0.1s;
+}
