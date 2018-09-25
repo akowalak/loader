@@ -45,3 +45,11 @@ body {
 	bottom: 40px;
 	animation-delay: -0.3s;
 }
+
+.loader span:nth-child(4) {
+	top: 60px;
+	left: 60px;
+	right: 60px;
+	bottom: 60px;
+	animation-delay: -0.4s;
+}
