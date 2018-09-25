@@ -93,3 +93,43 @@ body {
 	bottom: 160px;
 	animation-delay: -0.9s;
 }
+
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+		background: rgba(255, 255, 0, .2);
+	}
+	10% {
+		background: rgba(255, 0, 0, .2);
+	}
+	20% {
+		background: rgba(0, 255, 0, .2);
+	}
+	30% {
+		background: rgba(255, 0, 255, .2);
+	}
+	40% {
+		background: rgba(0, 255, 255, .2);
+	}
+	50% {
+		background: rgba(255, 255, 255, .2);
+	}
+	60% {
+		background: rgba(0, 0, 0, .2);
+	}
+	70% {
+		background: rgba(255, 255, 0, .3);
+	}
+	80% {
+		background: rgba(255, 0, 0, .3);
+	}
+	90% {
+		background: rgba(0, 255, 0, .3);
+	}
+	100% {
+		background: rgba(255, 0, 255, .3);
+	}
+	120% {
+		transform: rotate(360deg);
+	}
+}
